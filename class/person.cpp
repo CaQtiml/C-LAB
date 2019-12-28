@@ -1,6 +1,6 @@
 
 #include "person.h"
-#include "bits/stdc++.h"
+#include "stdc++.h"
 using namespace std;
 #define PKhing printf("\n")
 //Person::Person(string f,string la,int num) : fn(f),ln(la),num(num){}
