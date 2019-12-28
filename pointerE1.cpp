@@ -37,3 +37,4 @@ int main()
 	cout << dbp(a) << " " << dbn(19);
 	//cout << dbp(19);
 }
+@CaQtiml
