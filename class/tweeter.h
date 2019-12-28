@@ -1,5 +1,5 @@
 #include "person.h"
-#include "bits/stdc++.h"
+#include "stdc++.h"
 using namespace std;
 class Tweeter : public Person
 {
