@@ -1,4 +1,4 @@
-#include "bits/stdc++.h"
+#include "stdc++.h"
 void pt(int *p)
 {
 	*p=5;
