@@ -1,5 +1,5 @@
 #include "tweeter.h"
-#include "bits/stdc++.h"
+#include "stdc++.h"
 using namespace std;
 Tweeter::Tweeter(string fi,string lt,int num,string ss) : Person(fi,lt,num) , st(ss){}
 string Tweeter::getid()
