@@ -1,4 +1,4 @@
-#include "stdc++.h"
+#include "bits/stdc++.h"
 using namespace std;
 #define god printf("\n");
 int main()
@@ -23,4 +23,20 @@ int main()
 	//both above are unacceptable.
 	int kk = *crazy;
 	cout << kk;god
+
+	*cpI=112;
+	int **dpI=&pI; //This is equal to "int *dpI=pI"
+	cout << **dpI << "\n";
+
+	int *test=pI;
+	cout << *test << "\n";
 }
+
+/*
+OUTPUT
+10
+4 4
+4
+112
+112
+*/
