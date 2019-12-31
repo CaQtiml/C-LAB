@@ -8,7 +8,8 @@ int main()
 {
 	int (*p)(int,int) = &add;
 	//int (*p)(int,int) = add; //This is also acceptable because function name will return as a pointer
-	int c = (*p)(2,3); //de-referencing and executing the function
+	int c = p(2,3); //de-referencing and executing the function
+	//int c = (*p)(2,3) //This is also ok
 	cout << c << "\n";
 
 	void (*ptr)() = PHC;
